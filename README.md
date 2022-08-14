@@ -17,6 +17,24 @@
 1. 下载最新Release中的构建
 2. 运行小助手
 3. 是时候清洁你的屏幕了！
+4. 清洁完成之后，按ESC键退出清洁程序！
+
+## 构建指南
+
+```bash
+git clone  https://github.com/KamijoToma/CleanYourScreen --depth 1
+mkdir build
+cd build
+cmake ..
+ninja
+```
+
+奇怪的构建问题请Google解决或发Issue
+
+## 已知Bug
+
+* WSL2下GLAD初始化失败，怀疑为WSLg或驱动配置的问题
+* Win11下打开助手时会有一段闪屏，目测为GLAD初始化造成
 
 ## 正经Readme
 
