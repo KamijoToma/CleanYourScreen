@@ -56,6 +56,14 @@ START /MIN /WAIT C:\Windows\System32\scrnsave.scr -s
 学了学LearningOpenGL里的几个小节，简单的在项目里写出了这个技术力很低的小东西，
 但是确实对我的屏幕灰尘强迫症起了些许疗效，不用每天都担心屏幕上是不是有灰尘……etc
 
+## Roadmap
+
+- [x] 实现基本的屏幕变黑支持
+- [ ] 实装`imgui`实现显示刷新率和调节屏幕色彩的功能（检测屏幕坏点）
+- [ ] 减小CPU占用和GPU占用
+- [ ] 抑制闪烁
+- [ ] 实现Github Actions自动化构建和发布
+
 ## License
 
 MIT License
