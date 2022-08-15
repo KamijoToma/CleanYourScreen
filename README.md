@@ -37,6 +37,20 @@ ninja
 * Win11下打开助手时会有一段闪屏，目测为GLAD初始化造成
 * Win11下内存占用高达150MB+，而且会造成风扇狂转，显卡占用高
 
+## 另一种解决思路
+
+(仅限于Windows系统)
+
+只需要简单地执行
+
+```cmd
+START /MIN /WAIT C:\Windows\System32\scrnsave.scr -s
+```
+
+即可造成黑屏，点击鼠标退出
+
+~~可惜的是不能跨平台~~
+
 ## 正经Readme
 
 学了学LearningOpenGL里的几个小节，简单的在项目里写出了这个技术力很低的小东西，
